@@ -1,3 +1,12 @@
-export default function Contact() {
-  return <h2>Contact Page</h2>;
-}
+import RatingComponent from './Rating';
+
+const Contact = () => {
+  return (
+    <section>
+      <h2>Contact Page</h2>
+      <RatingComponent></RatingComponent>
+    </section>
+  );
+};
+
+export default Contact;

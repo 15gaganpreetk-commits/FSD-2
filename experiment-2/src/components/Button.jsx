@@ -1,12 +1,20 @@
+import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 
-export default function ButtonBasic() {
+const ButtonBasic = () => {
   return (
     <>
-    <Button size="small" variant='outlined'>Small</Button>
-    <Button size="medium" variant='contained'>Medium</Button>
-    <Button size="large" variant='text'>Xl</Button>
-    </>
-  ) 
+      <Button variant="outlined" size="small">Small</Button>
+      <Button variant="outlined" size="medium">Medium</Button>
+      <Button variant="outlined" size="large">XL</Button>
 
-}
+      <TextField
+        variant="outlined"
+        label="Outlined"
+        id="outlined-basic"
+      />
+    </>
+  );
+};
+
+export default ButtonBasic;
