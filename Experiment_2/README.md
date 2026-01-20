@@ -1,16 +1,15 @@
-# React + Vite
+# Experiment 2
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Learning Outcomes
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
+1. Build reusable React components- Create modular, self-contained components (Button, Checkbox, Rating) that can be easily integrated into larger applications.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+2. Implement form controls and interactions - Develop interactive UI elements with proper state management and event handling for user inputs.
 
-## Expanding the ESLint configuration
+3. Manage component state with React hooks - Use useState and other React hooks to manage component state effectively and respond to user interactions.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+4. Create single-page applications (SPA) - Build a navigation structure that allows seamless switching between multiple views without full page reloads.
+
+5. Style React components with CSS - Apply CSS styling to React components and ensure consistent visual appearance across different component types
