@@ -1,18 +1,23 @@
-# Experiment 3 - Learning Outcomes
+# Experiment 3 – Learning Outcomes
 
-## Learning Outcomes: Link, Routing, and Router
+## Learning Outcomes: Links, Routing, and Router
 
-1. Understanding React Router Fundamentals
-   - Learn how to set up and configure React Router in a single-page application (SPA) to enable client-side navigation without full page reloads.
+1. **Grasping the Basics of React Router**
 
-2. Implementing Links and Navigation
-   - Master the use of `<Link>` and `<NavLink>` components to create navigation elements that allow users to navigate between different routes without reloading the page.
+   * Gain a clear understanding of how React Router is installed and configured in a single-page application (SPA) to support seamless client-side navigation without triggering full page reloads.
 
-3. Defining and Managing Routes
-   - Understand how to define routes using route configurations, nested routes, and dynamic route parameters to create flexible and scalable routing structures in your application.
+2. **Creating Navigation Using Links**
 
-4. Route State and URL Parameters
-   - Learn how to extract and utilize URL parameters and query strings to pass data between components and maintain application state based on the current route.
+   * Learn to effectively use the `<Link>` and `<NavLink>` components to build intuitive navigation systems that allow users to move between routes smoothly within the application.
 
-5. Programmatic Navigation and Route Guards
-   - Develop skills in programmatically navigating users through routes using the `useNavigate` hook and implementing route protection mechanisms for authenticated access.
+3. **Route Definition and Organization**
+
+   * Understand how to create and manage routes using route configurations, including nested routing and dynamic route parameters, to design scalable and well-structured applications.
+
+4. **Handling Route Data and URL Parameters**
+
+   * Develop the ability to retrieve and use URL parameters and query strings for transferring data between components and controlling application behavior based on the active route.
+
+5. **Programmatic Routing and Access Control**
+
+   * Learn how to navigate between routes programmatically using the `useNavigate` hook and implement route-guarding techniques to restrict access based on authentication or authorization rules.
