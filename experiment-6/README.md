@@ -1,16 +1,21 @@
-# React + Vite
+## 📌 Description
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This experiment focuses on creating a **user login form** using **React (Vite)** and **Material UI (MUI)**. It covers handling user input through React state, validating form fields in real time, and designing a clean, responsive interface. The implementation demonstrates how modern UI component libraries can be combined with React to build interactive and user-friendly forms commonly used in real-world web applications.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎯 Learning Outcomes
 
-## React Compiler
+After completing this experiment, the learner will be able to:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. Develop form elements as **controlled inputs** in React and manage their values using state.
+2. Perform **client-side form validation** using built-in browser validation along with custom validation rules.
+3. Implement and customize **Material UI form components** such as TextField, Button, Checkbox, and Radio for structured form design.
+4. Display **real-time validation feedback and error messages** based on user actions and input conditions.
+5. Design a **responsive and visually consistent user interface** by integrating React components with CSS styling.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Conclusion
+
+Through this experiment, the learner gains practical experience in building and validating forms in a React application using a modern UI framework. The concepts covered here—state handling, validation logic, and UI composition—are essential for developing scalable, user-friendly web interfaces and form the foundation for implementing more complex input-driven features in full-stack applications.
